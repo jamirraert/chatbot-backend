@@ -59,3 +59,30 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Configuration
+clone .env.example file and rename .env
+
+comment this line 
+```
+REVERB_APP_ID=414056
+REVERB_APP_KEY=afbl4fcrqam3ucixnx4j
+REVERB_APP_SECRET=6ceftgkyeaca4vgc5ea5
+REVERB_HOST=192.168.0.175
+REVERB_PORT=8080
+REVERB_SCHEME=http
+
+VITE_REVERB_APP_KEY="${REVERB_APP_KEY}"
+VITE_REVERB_HOST="${REVERB_HOST}"
+VITE_REVERB_PORT="${REVERB_PORT}"
+VITE_REVERB_SCHEME="${REVERB_SCHEME}"
+```
+
+install composer
+```
+composer install
+```
+
+setup laravel reverb
+
